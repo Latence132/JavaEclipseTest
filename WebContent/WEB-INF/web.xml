@@ -10,6 +10,24 @@
 </servlet-mapping>
 
   <servlet>
+	<servlet-name>TestInc</servlet-name>
+	<servlet-class>com.sdzee.servlets.TestInc</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>TestInc</servlet-name>
+	<url-pattern>/testinc</url-pattern>
+</servlet-mapping>
+
+  <servlet>
+	<servlet-name>TestEl</servlet-name>
+	<servlet-class>com.sdzee.servlets.TestEl</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>TestEl</servlet-name>
+	<url-pattern>/testel</url-pattern>
+</servlet-mapping>
+
+  <servlet>
 	<servlet-name>Main</servlet-name>
 	<servlet-class>com.sdzee.personne.Main</servlet-class>
 </servlet>
@@ -27,6 +45,14 @@
 	<url-pattern>/monnaie</url-pattern>
 </servlet-mapping>
 
+  <servlet>
+	<servlet-name>TestArrays</servlet-name>
+	<servlet-class>com.array.test.TestArrays</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>TestArrays</servlet-name>
+	<url-pattern>/arrays</url-pattern>
+</servlet-mapping>
 
 
 </web-app>
